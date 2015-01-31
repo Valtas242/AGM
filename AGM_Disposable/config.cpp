@@ -64,7 +64,7 @@ class Extended_Put_EventHandlers {
 };
 
 class CfgWeapons {
-  class Launcher_Base_F;
+  /*class Launcher_Base_F;
   class launch_NLAW_F: Launcher_Base_F {
     AGM_UsedTube = "AGM_launch_NLAW_Used_F";      // The class name of the used tube.
     magazines[] = {"AGM_PreloadedMissileDummy"};  // The dummy magazine
@@ -79,7 +79,7 @@ class CfgWeapons {
     //picture = "";              @todo
     //model = "";                @todo
     weaponPoolAvailable = 0;
-  };
+  };*/
 };
 
 class CfgMagazines {
@@ -115,7 +115,7 @@ class CfgVehicles {
       }; \
     };
 
-  class ReammoBox_F;
+  /*class ReammoBox_F;
   class NATO_Box_Base: ReammoBox_F {};
   class Box_NATO_Ammo_F: NATO_Box_Base {
     MACRO_NONLAW
@@ -180,7 +180,7 @@ class CfgVehicles {
   class Tank_F;
   class APC_Tracked_01_base_F: Tank_F {
     MACRO_NONLAW
-  };
+  };*/
   /*class B_APC_Tracked_01_base_F: APC_Tracked_01_base_F {
     MACRO_NONLAW
   };
@@ -194,10 +194,10 @@ class CfgVehicles {
     MACRO_NONLAW
   };*/
 
-  class Car_F;
+  /*class Car_F;
   class MRAP_01_base_F: Car_F {
     MACRO_NONLAW
-  };
+  };*/
   /*class MRAP_01_gmg_base_F: MRAP_01_base_F {
     MACRO_NONLAW
   };
@@ -214,9 +214,9 @@ class CfgVehicles {
     MACRO_NONLAW
   };*/
 
-  class MRAP_03_base_F: Car_F {
+  /*class MRAP_03_base_F: Car_F {
     MACRO_NONLAW
-  };
+  };*/
   /*class MRAP_03_hmg_base_F: MRAP_03_base_F {
     MACRO_NONLAW
   };
@@ -233,13 +233,13 @@ class CfgVehicles {
     MACRO_NONLAW
   };*/
 
-  class Wheeled_APC_F: Car_F {};
+  /*class Wheeled_APC_F: Car_F {};
   class APC_Wheeled_03_base_F: Wheeled_APC_F {
     MACRO_NONLAW
   };
   class APC_Wheeled_01_base_F: Wheeled_APC_F {
     MACRO_NONLAW
-  };
+  };*/
   /*class B_APC_Wheeled_01_base_F: APC_Wheeled_01_base_F {
     MACRO_NONLAW
   };
