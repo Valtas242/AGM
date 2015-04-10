@@ -20,7 +20,6 @@ class RscProgress;
 class RscStructuredText;
 class RscActiveText;
 class RscCombo;
-class RscControlsGroupNoScrollbars;
 
 /*
 Adjust the scaling of the inventory screen
@@ -87,25 +86,31 @@ class RscDisplayInventory {
 		class BackgroundSlotPrimaryMuzzle: BackgroundSlotPrimary {
 			x = "26.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "9.1 *             ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *             (safeZoneH / 40)";
+			w = "2.3 *             (safeZoneH / 40)";
 			h = "2 *             ((safeZoneH / 1.2) / 25)";
 		};
-		class BackgroundSlotPrimaryFlashlight: BackgroundSlotPrimary {
-			x = "29.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+    class BackgroundSlotPrimaryUnderBarrel: BackgroundSlotPrimary {
+			x = "29 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "9.1 *             ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *             (safeZoneH / 40)";
+			w = "2.3 *             (safeZoneH / 40)";
+			h = "2 *             ((safeZoneH / 1.2) / 25)";
+    };
+		class BackgroundSlotPrimaryFlashlight: BackgroundSlotPrimary {
+			x = "31.4 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			y = "9.2 *             ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
+			w = "2.3 *             (safeZoneH / 40)";
 			h = "2 *             ((safeZoneH / 1.2) / 25)";
 		};
 		class BackgroundSlotPrimaryOptics: BackgroundSlotPrimary {
-			x = "32.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "33.8 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "9.1 *             ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *             (safeZoneH / 40)";
+			w = "2.3 *             (safeZoneH / 40)";
 			h = "2 *             ((safeZoneH / 1.2) / 25)";
 		};
 		class BackgroundSlotPrimaryMagazine: BackgroundSlotPrimary {
-			x = "35.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "36.2 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "9.1 *             ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *             (safeZoneH / 40)";
+			w = "2.3 *             (safeZoneH / 40)";
 			h = "2 *             ((safeZoneH / 1.2) / 25)";
 		};
 		class BackgroundSlotSecondary: BackgroundSlotPrimary {
@@ -117,25 +122,31 @@ class RscDisplayInventory {
 		class BackgroundSlotSecondaryMuzzle: BackgroundSlotPrimary {
 			x = "26.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "14.6 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
+    class BackgroundSlotSecondaryUnderBarrel: BackgroundSlotPrimary {
+			x = "29 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			y = "14.6 *             ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
+			w = "2.3 *             (safeZoneH / 40)";
+			h = "2 *             ((safeZoneH / 1.2) / 25)";
+    };
 		class BackgroundSlotSecondaryFlashlight: BackgroundSlotPrimary {
-			x = "29.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "31.4 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "14.6 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class BackgroundSlotSecondaryOptics: BackgroundSlotPrimary {
-			x = "32.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "33.8 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "14.6 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class BackgroundSlotSecondaryMagazine: BackgroundSlotPrimary {
-			x = "35.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "36.2 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "14.6 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class BackgroundSlotHandgun: BackgroundSlotPrimary {
@@ -147,25 +158,31 @@ class RscDisplayInventory {
 		class BackgroundSlotHandgunMuzzle: BackgroundSlotPrimary {
 			x = "26.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "20.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
+    class BackgroundSlotHandgunUnderBarrel: BackgroundSlotPrimary {
+			x = "29 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			y = "20.1 *             ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
+			w = "2.3 *             (safeZoneH / 40)";
+			h = "2 *             ((safeZoneH / 1.2) / 25)";
+    };
 		class BackgroundSlotHandgunFlashlight: BackgroundSlotPrimary {
-			x = "29.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "31.4 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "20.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class BackgroundSlotHandgunOptics: BackgroundSlotPrimary {
-			x = "32.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "33.8 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "20.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class BackgroundSlotHandgunMagazine: BackgroundSlotPrimary {
-			x = "35.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "36.2 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "20.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class BackgroundSlotHeadgear: BackgroundSlotPrimary {
@@ -277,31 +294,31 @@ class RscDisplayInventory {
 		class SlotPrimaryMuzzle: SlotPrimary {
 			x = "26.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "9.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
-		class SlotPrimaryGrip: SlotPrimary {
-			w = 0;
-			h = 0;
-			x = "39 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
-			y = "9 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
+    class SlotPrimaryUnderBarrel: SlotPrimary {
+			x = "29 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			y = "9.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
+			w = "2.3 *           (safeZoneH / 40)";
+			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class SlotPrimaryFlashlight: SlotPrimary {
-			x = "29.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "31.4 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "9.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class SlotPrimaryOptics: SlotPrimary {
-			x = "32.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "33.8 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "9.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class SlotPrimaryMagazine: SlotPrimary {
-			x = "35.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "36.2 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "9.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class SlotSecondary: SlotPrimary {
@@ -313,31 +330,31 @@ class RscDisplayInventory {
 		class SlotSecondaryMuzzle: SlotPrimary {
 			x = "26.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "14.6 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
-		class SlotSecondaryGrip: SlotPrimary {
-			w = 0;
-			h = 0;
-			x = "39 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
-			y = "14.5 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
+		class SlotSecondaryUnderBarrel: SlotPrimary {
+			x = "29 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			y = "14.59 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
+			w = "2.3 *           (safeZoneH / 40)";
+			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class SlotSecondaryFlashlight: SlotPrimary {
-			x = "29.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "31.4 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "14.6 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class SlotSecondaryOptics: SlotPrimary {
-			x = "32.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "33.8 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "14.6 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class SlotSecondaryMagazine: SlotPrimary {
-			x = "35.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "36.2 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "14.6 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class SlotHandgun: SlotPrimary {
@@ -349,31 +366,31 @@ class RscDisplayInventory {
 		class SlotHandgunMuzzle: SlotPrimary {
 			x = "26.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "20.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
-		class SlotHandgunGrip: SlotPrimary {
-			w = 0;
-			h = 0;
-			x = "39 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
-			y = "20 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
+		class SlotHandgunUnderBarrel: SlotPrimary {
+			x = "29 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			y = "20.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
+			w = "2.3 *           (safeZoneH / 40)";
+			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class SlotHandgunFlashlight: SlotPrimary {
-			x = "29.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "31.4 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "20.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class SlotHandgunOptics: SlotPrimary {
-			x = "32.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "33.8 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "20.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class SlotHandgunMagazine: SlotPrimary {
-			x = "35.6 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
+			x = "36.2 *           (safeZoneH / 40) +       (safezoneX + (safezoneW - safeZoneH)/2)";
 			y = "20.1 *           ((safeZoneH / 1.2) / 25) +   (safezoneY + (safezoneH - (safeZoneH / 1.2))/2)";
-			w = "2.9 *           (safeZoneH / 40)";
+			w = "2.3 *           (safeZoneH / 40)";
 			h = "2 *           ((safeZoneH / 1.2) / 25)";
 		};
 		class SlotHeadgear: SlotPrimary {

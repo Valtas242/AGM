@@ -624,10 +624,10 @@ class CfgVehicles {
   class Van_01_base_F: Truck_F {
     class Turrets;
   };
-  class Van_01_civil_transport_base_F;
+  /*class Van_01_civil_transport_base_F;
   class C_Van_01_transport_F: Van_01_civil_transport_base_F {
     //class Turrets: Turrets {};
-  };
+  };*/
 
   class I_G_Van_01_transport_F: Van_01_base_F {
     /*class Turrets: Turrets {
