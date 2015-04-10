@@ -829,7 +829,7 @@ class CfgWeapons {
     discreteDistanceInitIndex = 0;
     displayName = "";
     picture = "";
-    model = "";
+    model = "\A3\Weapons_f\empty";
     magazines[] = {"AGM_FakeMagazine"};
     scope = 2;
   };
